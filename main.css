@@ -30,7 +30,7 @@ h2 {
 table {
   overflow: hidden;
   border-collapse: separate; /* Permite espaçamento entre células */
-  border-spacing: 1px 1px; /* Define o espaço entre colunas e linhas */
+  border-spacing: 0; /* Define o espaço entre colunas e linhas */
   font-size: 16px;
   width: 100%;
   margin: 0;
@@ -53,6 +53,7 @@ table th {
   text-align: center;
   padding: 8px;
   min-height: 40px; /* Corrigido erro de unidade */
+  border: 1px solid #ebebeb;
 }
 
 table tbody tr th {
