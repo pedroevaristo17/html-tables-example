@@ -83,7 +83,7 @@ tfoot tr td {
 /* Body Row Styles in Table Body */
 table tbody tr th {
     color: black; /* Color for body row headers */
-    width: 35%;
+    width: 15%;
     padding: 20px;
     text-align: left;
 }
