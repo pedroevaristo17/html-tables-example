@@ -1,0 +1,75 @@
+/* Universal Style Rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table Styles */
+.table-wrapper {
+  width: 60%;
+  margin: auto;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+table {
+  overflow: hidden;
+  border-collapse: separate; /* Permite espaçamento entre células */
+  border-spacing: 1px 1px; /* Define o espaço entre colunas e linhas */
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  white-space: normal;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+caption {
+  caption-side: bottom;
+  margin: 0px;
+  font-size: 14px;
+  font-style: italic;
+  border: none;
+  background-color: transparent !important;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 8px;
+  min-height: 40px; /* Corrigido erro de unidade */
+}
+
+table tbody tr th {
+  color:blue ;
+}
+
+/* Color Table Headers */
+table thead th {
+  color: #f8f8f8;
+  background: blue;
+}
+
+table thead tr th {
+  padding: 15px 8px;
+}
+
+
+tfoot tr th {
+  color: blue;
+}

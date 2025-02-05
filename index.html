@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+    <h2 id="weeklyCourseSchedule">Semester II Schedule</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="weeklyCourseSchedule">
+            <caption>Fig 1: Schedules for Semester 4 courses.</caption>
+            <thead>
+                <tr>
+                    <th id="course" scope="col">Course</th>
+                    <th id="Time" scope="col" colspan="2">Time</th>
+                    <th id="Room" scope="col">Room</th>
+                    <th id="Day" scope="col">Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="English II" scope="row" rowspan="2">English II</th>
+                    <td headers="English II Time">9:00</td>
+                    <td headers="English II Time2">11:00</td>
+                    <td headers="English II Room">L2201</td>
+                    <td headers="English II Day">Monday</td>
+
+                </tr>
+                
+                <tr>
+                    <td headers="English II Time">9:00</td>
+                    <td headers="English II Time2">11:00</td>
+                    <td headers="English II Room">L2201</td>
+                    <td headers="English II Day">Wednesday</td>
+                </tr>
+                
+                <tr>
+                    <th id="Geography" scope="row">Geography</th>
+                    <td headers="Geography Time">9:00</td>
+                    <td headers="Geography Time2">11:00</td>
+                    <td headers="Geography Room">G107</td>
+                    <td headers="Geography Day">Thursday</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="Biology" scope="row">Biology</th>
+                    <td headers="Biology Time">9:00</td>
+                    <td headers="Biology Time2">11:00</td>
+                    <td headers="Biology Room">B302</td>
+                    <td headers="Biology Day">Friday</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+
+</html>
